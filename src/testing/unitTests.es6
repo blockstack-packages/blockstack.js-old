@@ -1,5 +1,5 @@
 import test from 'tape'
-import { profiles, zones, tokens, keychain } from './index'
+import { profiles, zones, tokens, keychain } from '../index'
 
 test('index', (t) => {
   t.plan(4)
