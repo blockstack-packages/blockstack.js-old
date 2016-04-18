@@ -1,11 +1,11 @@
 {
   "name": "blockstack",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Blockstack JS Library",
   "main": "lib/index",
   "scripts": {
     "compile": "babel --presets es2015 src -d lib",
-    "test": "npm run compile; node lib/testing/unitTests.js",
+    "test": "npm run compile; node lib/unitTests.js",
     "prepublish": "npm run compile"
   },
   "repository": {
@@ -25,5 +25,11 @@
     "babel-cli": "^6.4.5",
     "babel-preset-es2015": "^6.3.13",
     "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "blockstack-keychain": "^0.0.2",
+    "blockstack-profiles": "^0.2.0",
+    "blockstack-tokens": "^0.5.0",
+    "blockstack-zones": "^0.1.0"
   }
 }
