@@ -37,7 +37,7 @@ The profiles/identity portion of this library can be used to:
 ```es6
 import { requestSignIn } from 'blockstack'
 
-var appManifest = {
+let appManifest = {
   name: "Hello, Blockstack",
   start_url: "https://helloblockstack.com",
   description: "A simple demo of blockstack auth",
