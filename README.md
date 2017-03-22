@@ -28,7 +28,7 @@ The profiles/identity portion of this library can be used to:
 1. recover a JSON profile from signed tokens
 1. validate signed profile tokens
 
-*Note: this document uses ES6 in its examples but it is compiled down to Javascript (ES5) and is perfectly compatible with it. If you're using the latter, just make a few adjustments to the examples below (e.g. use "let" instead of "var").*
+*Note: this document uses ES6 in its examples but it is compiled down to Javascript (ES5) and is perfectly compatible with it. If you're using the latter, just make a few adjustments to the examples below (e.g. use "var" instead of "let").*
 
 ## Auth
 
@@ -37,7 +37,7 @@ The profiles/identity portion of this library can be used to:
 ```es6
 import { requestSignIn } from 'blockstack'
 
-var appManifest = {
+let appManifest = {
   name: "Hello, Blockstack",
   start_url: "https://helloblockstack.com",
   description: "A simple demo of blockstack auth",
